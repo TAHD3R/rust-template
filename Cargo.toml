@@ -1,0 +1,17 @@
+[package]
+name = "rust-template"
+description = "A Rust template project"
+version = "0.1.0"
+repository = "https://github.com/TAHD3R"
+authors = ["Jassar Ayiken <aspj6771@gmail.com>"]
+edition = "2024"
+keywords = []
+license = "MIT"
+
+[dependencies]
+anyhow = "1.0.100"
+serde = { version = "1.0.228", features = ["derive"] }
+serde_json = "1.0.145"
+thiserror = "2.0.17"
+tracing = "0.1.41"
+tracing-subscriber = "0.3.20"

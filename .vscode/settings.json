@@ -1,0 +1,12 @@
+{
+  "explorer.fileNesting.enabled": true,
+  "explorer.fileNesting.patterns": {
+    "Cargo.toml": "Cargo.lock, .cargo-ok,  cliff.toml, deny.toml, rust-toolchain.toml, .rustfmt.toml, clippy.toml, _typos.toml",
+    ".gitignore": ".pre-commit-config.yaml",
+    "README.md": "CHANGELOG.md",
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit"
+  },
+  "editor.formatOnSave": true
+}
